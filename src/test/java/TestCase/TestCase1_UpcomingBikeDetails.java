@@ -11,7 +11,7 @@ public class TestCase1_UpcomingBikeDetails extends BaseClass {
 
 	@Test(groups= {"smoke","regression","master"})
 	public void clickNewBikes() throws InterruptedException {
-		logger.info("**** Starting TC_002_UpcomingBike ****");
+		logger.info("**** Starting TC_001_UpcomingBike ****");
 		try {
 			logger.info("clicking on  New Bikes ");
 			// Navigate to Zigwheels page
@@ -45,7 +45,7 @@ public class TestCase1_UpcomingBikeDetails extends BaseClass {
 			e.printStackTrace();
 			Assert.fail();
 		}
-		logger.info("**** Finished TC_002_UpcomingBike ****");
+		logger.info("**** Finished TC_001_UpcomingBike ****");
 	}
 
 }

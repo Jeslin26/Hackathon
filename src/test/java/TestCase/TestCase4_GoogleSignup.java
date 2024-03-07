@@ -11,7 +11,7 @@ public class TestCase4_GoogleSignup extends BaseClass {
 
 	@Test(groups= {"regression","master"})
 	public void verifyLoginPage() {
-		logger.info("**** Starting TC_005_LoginPage ****");
+		logger.info("**** Starting TC_004_LoginPage ****");
 		try {
 			logger.info("Verifying loginPage");
 			// Implementing window handles
@@ -36,6 +36,6 @@ public class TestCase4_GoogleSignup extends BaseClass {
 			e.printStackTrace();
 			Assert.fail();
 		}
-		logger.info("**** Finished TC_005_LoginPage ****");
+		logger.info("**** Finished TC_004_LoginPage ****");
 	}
 }

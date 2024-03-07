@@ -12,7 +12,7 @@ public class TestCase2_UsedCarsDetails extends BaseClass {
 	
 	@Test(groups= {"regression","master"})
 	public void UsedCarDetails() throws InterruptedException, IOException {
-
+		logger.info("**** Starting TC_002_UsedCar ****");
 		try {
 			logger.info("clicking on  Used Cars and selecting Chennai");
 			UsedCars usedCar = new UsedCars(driver);
@@ -30,6 +30,6 @@ public class TestCase2_UsedCarsDetails extends BaseClass {
 			e.printStackTrace();
 			Assert.fail();
 		}
-		logger.info("**** Finished TC_003_UsedCar ****");
+		logger.info("**** Finished TC_002_UsedCar ****");
 	}
 }

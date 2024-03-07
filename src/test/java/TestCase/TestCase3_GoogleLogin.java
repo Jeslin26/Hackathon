@@ -10,7 +10,7 @@ public class TestCase3_GoogleLogin extends BaseClass {
 
 	@Test(groups= {"smoke","regression","master"})
 	public void verifyLoginPage() {
-		logger.info("**** Starting TC_004_LoginSignup ****");
+		logger.info("**** Starting TC_003_LoginSignup ****");
 		try {
 			logger.info("Verifying login/SignUp");
 			LoginSignupPage loginSignupPage = new LoginSignupPage(driver);
@@ -30,6 +30,6 @@ public class TestCase3_GoogleLogin extends BaseClass {
 			e.printStackTrace();
 			Assert.fail();
 		}
-		logger.info("**** Finished TC_004_LoginSignup ****");
+		logger.info("**** Finished TC_003_LoginSignup ****");
 	}
 }
