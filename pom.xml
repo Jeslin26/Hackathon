@@ -7,7 +7,6 @@
 	<artifactId>IdentifyNewBikes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
-
 		<pluginManagement>
 			<plugins>
 				<!-- compliles our project-->
@@ -16,13 +15,11 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.12.1</version>
 				</plugin>
-
 				<!-- RUNNING OUR PROJECT-->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.2.5</version>
-
 					<!-- run a xml file in side sure fire plugin-->
 					<configuration>
 						<suiteXmlFiles>
@@ -35,7 +32,6 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
